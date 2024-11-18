@@ -12,7 +12,7 @@ export function Brand({ as = "link", href }: Props) {
 		return (
 			<Link
 				href={href ?? "/"}
-				className={cn("font-geist-mono text-3xl font-semibold rounded-md", focusRing)}
+				className={cn("font-geist-mono text-2xl font-bold tracking-tight rounded-md", focusRing)}
 			>
 				Formiticus
 			</Link>
@@ -21,7 +21,7 @@ export function Brand({ as = "link", href }: Props) {
 
 	if (as === "logo") {
 		return (
-			<div className="text-3xl font-bold font-geist-mono">
+			<div className="text-3xl tracking-tight font-bold font-geist-mono">
 				Formiticus
 			</div>
 		);

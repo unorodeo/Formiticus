@@ -63,7 +63,7 @@ function NavList() {
 			<Link
 				href={"/sign-in"}
 				className={buttonVariants({
-					variant: "primary",
+					variant: "secondary",
 					className: "text-base font-geist-mono",
 				})}
 			>
